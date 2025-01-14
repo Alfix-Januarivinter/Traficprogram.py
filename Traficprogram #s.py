@@ -1,4 +1,4 @@
-#version s0.1.1 (debug release) (simplified version) https://github.com/Alfix-Januarivinter/Traficprogram.py
+#version s0.1.2 (debug release) (simplified version) https://github.com/Alfix-Januarivinter/Traficprogram.py
 import random
 #imports random software package for generate random numbers
 while True:
@@ -37,6 +37,7 @@ while True:
 
     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
         print("Congratulations, its done!")
+        input()
         break
     
     #prints the result based on the operations performed and the conditions is right
@@ -64,7 +65,8 @@ while True:
     
     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
         print("Congratulations, its done!")
-        answer = False
+        input()
+        break
     
     #prints the result based on the operations performed and the conditions is right
     elif d3 == 1:
@@ -90,6 +92,7 @@ while True:
     
     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
         print("Congratulations, its done!")
+        input()
         break
     
     #prints the result based on the operations performed and the conditions is right
@@ -117,6 +120,7 @@ while True:
     
     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
         print("Congratulations, its done!")
+        input()
         break
     
     #prints the result based on the operations performed and the conditions is right
@@ -155,6 +159,7 @@ while True:
     
     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
         print("Congratulations, its done!")
+        input()
         break
     
     #prints the result based on the operations performed and the conditions is right
@@ -195,6 +200,7 @@ while True:
     
     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
         print("Congratulations, its done!")
+        input()
         break
     
     #prints the result based on the operations performed and the conditions is right
@@ -234,6 +240,7 @@ while True:
     
     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
         print("Congratulations, its done!")
+        input()
         break
     
     #prints the result based on the operations performed and the conditions is right
@@ -273,11 +280,13 @@ while True:
     
     if n1 == 0 and n2 == 0 and n3 == 0 and n4 == 0:
         print("Congratulations, its done!")
+        input()
         break
     
     #prints the result based on the operations performed and the conditions is right
     
     else:
         print("What this is an error in the system. The operation was not performed. Contact the creator/developer of the program! https://github.com/Alfix-Januarivinter/Traficprogram.py Error code: exit")
+        input()
         break
     #if the conditions are not met, the program will print an error message and ask contact the bug to a developer https://github.com/Alfix-Januarivinter/Traficprogram.py
